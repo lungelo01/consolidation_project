@@ -1,0 +1,56 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+*.log
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sphinx documentation build
+docs/_build/
+*.mo
+
+# Static and media files (if dynamically generated)
+staticfiles/
+media/
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Docker
+*.pid
+*.tar
+*.bak
+*.swp
+.dockerignore
+
+# Git files
+*.orig
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
